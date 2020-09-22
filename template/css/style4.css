@@ -1,0 +1,117 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100%;
+	background-color: #262626;
+}
+.swiper-container
+{
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+.swiper-slide
+{
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 380px;
+	background-color: #fff;
+}
+.swiper-slide .img_box
+{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.img_box img
+{
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+}
+.swiper-slide .img_details
+{
+	box-sizing: border-box;
+	padding: 20px;
+}
+.swiper-slide .img_details h3
+{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+}
+.swiper-slide .img_details h3 span
+{
+	color: #f44336; 
+}
+.huff
+{
+	margin: auto;
+	padding: auto;
+}
+.nav
+{	
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 10px;
+	height: 40px;
+	z-index: 9999;
+}
+.nav ul
+{
+	padding: 0;
+	margin: 0;
+}
+.nav li
+{
+	list-style: none;
+	float: left;
+}
+.nav li a
+{
+	position: relative;
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	float: left;
+}
+.nav li a:hover
+{
+	background-color: white;
+}
+.nav .active
+{
+	background-color: white;
+}
+.nav li a img
+{
+	max-width: 35px;
+	filter: invert(1);
+	mix-blend-mode: difference;
+}
+.nav li a i
+{
+	max-width: 50px;
+	filter: invert(1);
+	color: black;
+	mix-blend-mode: difference;
+}
