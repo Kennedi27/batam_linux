@@ -35,6 +35,9 @@
 <script src="<?php echo base_url().'assets/plugins/datatables/jquery.dataTables.min.js'?>"></script>
 <script src="<?php echo base_url().'assets/plugins/datatables/dataTables.bootstrap.min.js'?>"></script>
 <script src="<?php echo base_url().'assets/plugins/toast/jquery.toast.min.js'?>"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="<?php echo base_url().'assets/plugins/Morris/morris.min.js' ?>"></script>
 <script type="text/javascript">
   $(document).ready(function() {
     $('#example1').DataTable();
@@ -92,5 +95,12 @@
             }
         ]
     });
-});  
+});
+new Morris.Line({
+  element: 'canvas',
+  data: <?php echo $chart ?>,
+  xkey: 'Bulan',
+  ykeys: ['Total'],
+  labels: ['Total Pengunjung'],
+});
 </script>

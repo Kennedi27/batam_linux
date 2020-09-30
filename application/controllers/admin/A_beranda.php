@@ -20,6 +20,9 @@
 			$data['tampi_uang2'] = $keuangan2->result();
 			$data['tampi_uang3'] = $keuangan3->result();
 			$data['tampi_uang4'] = $keuangan4->result();
+
+			$CC = $this->m_pengunjung->getPerMonth()->result();
+			$data['chart'] = json_encode($CC); 
 			$data['isi'] = "admin/beranda";
 			$this->load->view('admin/index', $data);
 		}
@@ -36,6 +39,9 @@
 			$data['tampi_uang2'] = $keuangan2->result();
 			$data['tampi_uang3'] = $keuangan3->result();
 			$data['tampi_uang4'] = $keuangan4->result();
+
+			$CC = $this->m_pengunjung->getPerMonth()->result();
+			$data['chart'] = json_encode($CC); 
 			$data['isi'] = "admin/beranda";
 			$this->load->view('admin/index', $data);	
 		}
