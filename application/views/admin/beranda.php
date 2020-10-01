@@ -85,7 +85,7 @@
                 <div class="col-md-12">
 
                   <div class="col-md-12">
-                          <canvas id="canvas" width="1000" height="280"></canvas>
+                          <div id="canvas" width="1000" height="400"></div>
                   </div>
   	            </div>
               </div>

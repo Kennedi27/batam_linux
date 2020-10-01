@@ -36,6 +36,14 @@
 	            return $hasil;
         	}
 		}
+		function getPerMonth(){
+			$res = $this->db->query("SELECT date_format(pengunjung_tanggal, '%Y-%m') AS Bulan , COUNT(perangkat) AS Total
+									FROM pengunjung WHERE year(pengunjung_tanggal) = year(curdate())
+									GROUP BY month(pengunjung_tanggal)
+									ORDER BY month(pengunjung_tanggal)");
+
+			return $res;
+		}
 	}
 
 ?> 
