@@ -1,0 +1,10 @@
+Rekomendasi Fitur :
++ Khusus untuk Akses Magang
++ Membuat Galery BLUG
++ Fitur Chat
++ Konsultasi / Diskusikan dengan divisi lain fitur apa saja yang divisi mereka perlukan
+  + Networking
+  + Programming
+  + Inti
+  + Medinfo
++ Rekomendasi Memiliki Akses Super User
