@@ -1,10 +1,14 @@
 Rekomendasi Fitur :
 + Khusus untuk Akses Magang
 + Membuat Galery BLUG
+    Berdasarkan
+    + Jenis Kegiatan BLUG
+    + Tahun Kegiatan BLUG
 + Fitur Chat
 + Konsultasi / Diskusikan dengan divisi lain fitur apa saja yang divisi mereka perlukan
   + Networking
   + Programming
   + Inti
   + Medinfo
-+ Rekomendasi Memiliki Akses Super User
++ Dikomendasi Memiliki Akses Super User
++ untuk bagian slideshow di batasi jumlah slidenya
