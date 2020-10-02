@@ -79,7 +79,8 @@ class Welcome extends CI_Controller
 		public function networking()
 		{
 			$this->load->view('user/networking');
-		}
+        }
+        // Ini nyusul ya
 		public function medinfo()
 		{
 			$this->load->view('user/medinfo');
