@@ -17,7 +17,6 @@
                     <li><a href="<?php echo site_url('welcome/inti');?>">Inti</a></li>
                     <li><a href="<?php echo site_url('welcome/programing');?>">Programing</a></li>
                     <li><a href="<?php echo site_url('welcome/networking');?>">Networking</a></li>
-                    <li><a href="<?php echo site_url('welcome/multimedia');?>">Multimedia</a></li>
                     
                 </ul>
             </div>
