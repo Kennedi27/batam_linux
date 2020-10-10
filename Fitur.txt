@@ -1,13 +1,11 @@
 Rekomendasi Fitur :
 + Membuat grafik pengunjung
-+ Khusus untuk Akses Magang
 + Membuat Galery BLUG
     Berdasarkan
     + Jenis Kegiatan BLUG
     + Tahun Kegiatan BLUG
 + Fitur Chat
 + Fitur forum diskusi
-+ Dikomendasi Memiliki Akses Super User
 + untuk bagian slideshow di batasi jumlah slidenya
 + Fixed error
-+ Rekomendasi desain.
++ Rekomendasi desain yang menarik
