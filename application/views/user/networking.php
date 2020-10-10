@@ -90,7 +90,7 @@
 				</div>
 			</div>
 			<div class="main-content">
-				<div class="box-circle">
+				<div class="box-circle"> 
 					<div class="circle-1">
 						<div class="circle-2">
 							<div class="circle-3">
