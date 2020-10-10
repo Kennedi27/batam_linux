@@ -6,10 +6,8 @@ Rekomendasi Fitur :
     + Jenis Kegiatan BLUG
     + Tahun Kegiatan BLUG
 + Fitur Chat
-+ Konsultasi / Diskusikan dengan divisi lain fitur apa saja yang divisi mereka perlukan
-  + Networking
-  + Programming
-  + Inti
-  + Medinfo
++ Fitur forum diskusi
 + Dikomendasi Memiliki Akses Super User
 + untuk bagian slideshow di batasi jumlah slidenya
++ Fixed error
++ Rekomendasi desain.
