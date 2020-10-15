@@ -42,7 +42,6 @@
     <div class="container">
         <div class="row" style="background-color: transparent;">
             <div class="col-md-9" style="padding-top: 15px; background-color: white; padding-bottom: 5px; box-shadow: 3px 1px 3px 3px lightgrey;">
-                <center style="font-weight: bold; color: #797DF3; margin-bottom: 20px;">NEW POST</center>
                 <h4 style="font-weight: bold; color: #1EAAD7; margin-left: 10px; margin-bottom: 10px;">Article</h4>
                   <div class="row">
                     <?php foreach ($b_artikel as $tampil => $row) { ?>
@@ -134,7 +133,6 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 style="text-align: center;">Kerja Tahunan BLUG</h2>
-                <center>Click And Find Out</center>
             </div>
                     <div class="col-md-2" style="margin-top: 50px;">
                         <img height="50px" id="pengkaderan" src="<?php echo base_url('template/images/pengkaderan.png')?>" class="img-fluid tunjuk prok">
