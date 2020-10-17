@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shorcut icon" href="<?= base_url('template/images/Logo_divisi/Programming.png'); ?>">
-	<title>Divisi Programing</title>
+	<title>Divisi Programming</title>
 	<link rel="stylesheet" type="text/css" href="<?= base_url('template/css/font-awesome.min.css'); ?>">
 </head>
 <body>
