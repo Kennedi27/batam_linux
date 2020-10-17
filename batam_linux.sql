@@ -6,7 +6,7 @@
 -- Generation Time: Sep 22, 2020 at 04:21 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.29
-
+-- Batam Linux User Group
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
