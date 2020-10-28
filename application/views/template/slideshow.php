@@ -19,8 +19,8 @@
 
     @media (max-width: 3020px) {
         #img_back img {
-            width: 100%;
             height: 700px;
+            width: 100%;
             background-size: cover;
         }    
     }
