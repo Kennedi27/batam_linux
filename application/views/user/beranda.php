@@ -4,7 +4,7 @@
 <section class="clearfix" style="margin-top: 5%;">
 <div class="container">
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5 hilang">
           <div style="position: relative;">
               <div id="bingkailogokiri"></div>
               <img class="logobody1" src="<?= base_url('template/images/logo.png'); ?>">
