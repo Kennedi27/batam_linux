@@ -16,4 +16,13 @@
         position: relative;
         
     }
+
+    @media (max-width: 3020px) {
+        #img_back img {
+            height: 700px;
+            width: 100%;
+            background-size: cover;
+        }    
+    }
+    
 </style>
