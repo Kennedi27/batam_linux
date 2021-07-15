@@ -9,3 +9,4 @@ Rekomendasi Fitur :
 + untuk bagian slideshow di batasi jumlah slidenya
 + Fixed error
 + Rekomendasi desain yang menarik
++ Membuat Fitur Chat
